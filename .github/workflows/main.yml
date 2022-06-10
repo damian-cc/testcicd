@@ -28,10 +28,12 @@ jobs:
         
       - name: Install packages
         uses: CultureHQ/actions-yarn@master
-        run: yarn
+        with:
+          args: install
         
       - name: Run test
-        run: yarn test
+        with:
+          args: test
         
       - name: Tests ✅
         if: ${{ success() }}
