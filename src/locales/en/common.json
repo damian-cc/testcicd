@@ -1,0 +1,9 @@
+{
+  "menu": {
+    "dashboard": "Dashboard",
+    "create": "Create",
+    "account": "Account",
+    "settings": "Settings",
+    "logout": "LogOut"
+  }
+}

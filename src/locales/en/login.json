@@ -1,0 +1,17 @@
+{
+  "button": {
+    "login": "Login"
+  },
+  "input": {
+    "email": {
+      "required": "Please input your email!"
+    },
+    "password": {
+      "required": "Please input your password!"
+    }
+  },
+  "error": {
+    "invalid_credentials": "Invalid credentials",
+    "already_logged_in": "You are already logged in"
+  }
+}

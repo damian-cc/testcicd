@@ -1,0 +1,24 @@
+{
+  "processors": [
+    "stylelint-processor-styled-components"
+  ],
+  "extends": [
+    "stylelint-prettier/recommended",
+    "stylelint-config-recommended",
+    "stylelint-config-rational-order",
+    "stylelint-config-styled-components"
+  ],
+  "rules": {
+    "rule-empty-line-before": [
+      "always",
+      {
+        "ignore": [
+          "first-nested"
+        ]
+      }
+    ],
+    "indentation": 2,
+    "block-closing-brace-empty-line-before": "never",
+    "custom-property-empty-line-before": "never"
+  }
+}
