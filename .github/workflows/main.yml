@@ -30,8 +30,7 @@ jobs:
         uses: CultureHQ/actions-yarn@master
         run: yarn
         
-      - name: Tests
-        uses: CultureHQ/actions-yarn@master
+      - name: Run test
         run: yarn test
         
       - name: Tests ✅
